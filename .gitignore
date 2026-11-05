@@ -1,0 +1,42 @@
+# Local browser sessions (including login cookies) and captured assets.
+.preview_browser_profile/
+captured_3d/
+manifest.json
+
+# Model exports are often private even if placed outside the default output folder.
+*.glb
+*.gltf
+*.obj
+*.stl
+*.ply
+*.fbx
+*.3mf
+*.usdz
+*.usd
+*.usda
+*.usdc
+*.bin
+*.zip
+
+# Python build and test files.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# Private configuration and editor files.
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
